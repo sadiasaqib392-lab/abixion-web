@@ -142,9 +142,12 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                     <p className="text-[10px] text-slate-500 uppercase font-semibold">
                       Direct Strategy Hotline
                     </p>
-                    <p className="text-white font-semibold">
+                    <a
+                      href="tel:+923020504559"
+                      className="text-white font-semibold hover:text-cyan-400 transition-colors"
+                    >
                       {COMPANY_INFO.phone}
-                    </p>
+                    </a>
                   </div>
                 </div>
 

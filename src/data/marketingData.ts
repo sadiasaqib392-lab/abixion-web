@@ -1,4 +1,4 @@
-import { ServiceItem, CaseStudy, Testimonial, FAQItem } from '../types';
+import { ServiceItem, CaseStudy, Testimonial, FAQItem, PortfolioProject } from '../types';
 import heroBannerImg from '../assets/images/agency_hero_banner_1786827021166.jpg';
 import seoImg from '../assets/images/seo_growth_analytics_1786827034689.jpg';
 import paidMediaImg from '../assets/images/paid_media_campaigns_1786827082328.jpg';
@@ -11,7 +11,7 @@ export const COMPANY_INFO = {
     'ABIXION DIGITAL MARKETING PVT LIMITED is an elite full-spectrum digital marketing firm empowering fast-growing brands, e-commerce leaders, and enterprise organizations to dominate search rankings, maximize paid media ROAS, and scale lifetime client value.',
   email: 'growth@abixion.com',
   supportEmail: 'contact@abixiondigital.com',
-  phone: '+1 (800) 482-9466',
+  phone: '+92 302 0504559',
   headquarters: 'Suite 900, Corporate Gateway Tower, Financial District',
   founded: '2019',
   stats: [
@@ -209,6 +209,117 @@ export const CASE_STUDIES: CaseStudy[] = [
   },
 ];
 
+export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
+  {
+    id: 'proj-web-dev',
+    name: 'Apex Modern SaaS Web Platform',
+    category: 'Website Development',
+    shortDesc:
+      'Engineered a lightning-fast, custom responsive Next.js corporate website with interactive pricing calculators and sub-second load times.',
+    image:
+      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80',
+    client: 'Apex Software Cloud',
+    metrics: '99/100 PageSpeed & +180% Lead Inbound',
+    tags: ['Next.js', 'Tailwind CSS', 'Responsive Design', 'Interactive UI'],
+    deliverables: [
+      'Custom Responsive Frontend Architecture',
+      'Interactive Product Demonstration Widgets',
+      'Enterprise CRM & Hubspot Lead Flow Integration',
+      'Full SEO Semantic Structured Schema Markup',
+    ],
+  },
+  {
+    id: 'proj-seo-domination',
+    name: 'Global FinTech Organic Search Expansion',
+    category: 'SEO',
+    shortDesc:
+      'Propelled 450+ high-intent financial keywords to Google Top 3 positions through technical audits, topic clusters, and digital PR.',
+    image:
+      'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80',
+    client: 'FinPulse Capital',
+    metrics: '+420% Organic Traffic & 450+ #1 Rankings',
+    tags: ['Technical SEO', 'Topic Clusters', 'Generative Search', 'Backlinks'],
+    deliverables: [
+      'Forensic Core Web Vitals & Crawl Optimization',
+      'Semantic Intent Keyword Hub Creation',
+      'AI Generative Engine Optimization (GEO)',
+      'High-Authority Industry Backlink Acquisition',
+    ],
+  },
+  {
+    id: 'proj-social-viral',
+    name: 'Omnichannel Viral Short-Form Video Engine',
+    category: 'Social Media Marketing',
+    shortDesc:
+      'Produced and scaled high-engagement Instagram Reels and TikTok campaigns driving over 14 million organic video views.',
+    image:
+      'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&auto=format&fit=crop&q=80',
+    client: 'Luxe Activewear',
+    metrics: '14.2M Video Views & +260k Followers',
+    tags: ['Short-Form Video', 'Instagram Reels', 'TikTok Ads', 'Community Growth'],
+    deliverables: [
+      'Viral Hook Scripting & Motion Editing',
+      'Creator & Micro-Influencer Management',
+      'Community Direct Messaging Conversion Funnels',
+      'Brand Identity & Trend Jacking Strategy',
+    ],
+  },
+  {
+    id: 'proj-paid-ads',
+    name: 'Performance Paid Media & Google ROAS Scaling',
+    category: 'Paid Advertising',
+    shortDesc:
+      'Restructured Google Search, Performance Max, and Meta ad accounts to scale monthly revenue while slashing customer acquisition cost.',
+    image:
+      'https://images.unsplash.com/photo-1533750516457-a7f992034fec?w=800&auto=format&fit=crop&q=80',
+    client: 'Nordic Supplements D2C',
+    metrics: '5.8x Blended ROAS & -42% CAC',
+    tags: ['Google Ads', 'Meta Ads', 'PMax', 'Conversion API'],
+    deliverables: [
+      'Multi-Variant Creative Hook Testing Protocol',
+      'Predictive Retargeting & Lookalike Modeling',
+      'Algorithmic Dayparting & Smart Bidding',
+      'Server-Side Conversion API (CAPI) Integration',
+    ],
+  },
+  {
+    id: 'proj-ecommerce-scale',
+    name: 'Shopify Plus High-Converting Digital Storefront',
+    category: 'E-Commerce',
+    shortDesc:
+      'Designed and coded a bespoke e-commerce store with 1-click checkout, dynamic bundle builders, and automated post-purchase retention.',
+    image:
+      'https://images.unsplash.com/photo-1556742049-0a67e5572293?w=800&auto=format&fit=crop&q=80',
+    client: 'Velvet & Oak Apparel',
+    metrics: '+68% Conversion Lift & $3.4M Annual GMV',
+    tags: ['Shopify Plus', 'CRO Funnels', 'Cart Optimization', 'Klaviyo Email'],
+    deliverables: [
+      'Custom Headless Shopify Plus Architecture',
+      'Optimized Mobile 1-Click Checkout Flow',
+      'Dynamic Upsell & Smart Bundle Matrix',
+      'Automated Behavioral Lifecycle Retention Flows',
+    ],
+  },
+  {
+    id: 'proj-branding-identity',
+    name: 'Luxury Tech Brand Identity & Digital Design System',
+    category: 'Branding',
+    shortDesc:
+      'Crafted a cohesive visual identity, typography system, premium packaging guidelines, and digital brand style guidelines.',
+    image:
+      'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=80',
+    client: 'Vanguard Dynamics',
+    metrics: 'Unified 12 Global Sub-Brands & +95% Brand Trust',
+    tags: ['Brand Strategy', 'Visual Identity', 'Typography', 'Style Guide'],
+    deliverables: [
+      'Comprehensive Brand Style Guide & Token System',
+      'Digital Vector Asset Suite & 3D Visuals',
+      'Executive Pitch Decks & Corporate Collateral',
+      'Omnichannel Brand Voice & Messaging Framework',
+    ],
+  },
+];
+
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: 't1',
@@ -254,38 +365,65 @@ export const TESTIMONIALS: Testimonial[] = [
     content:
       'As a traditional B2B logistics firm, we were skeptical of digital agency promises. ABIXION proved their ROI in the first 30 days. We have now partnered with them for over three consecutive years.',
   },
+  {
+    id: 't5',
+    author: 'Elena Rostova',
+    role: 'Head of Marketing',
+    company: 'Apex Health Systems',
+    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80',
+    rating: 5,
+    highlight: 'Over 2,400 monthly patient bookings generated',
+    content:
+      'The custom web solutions and local SEO strategies built by Abixion Digital Marketing doubled our patient inquiries within the first 60 days. Truly a world-class team with high responsiveness.',
+  },
+  {
+    id: 't6',
+    author: 'Marcus Vance',
+    role: 'Managing Partner',
+    company: 'Nexus Retail Ventures',
+    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80',
+    rating: 5,
+    highlight: '+340% revenue growth across 6 storefronts',
+    content:
+      'Abixion delivered a stunning website overhaul and ran hyper-targeted paid advertising campaigns that gave us our highest ever Return on Ad Spend. Highly recommended for any scaling enterprise.',
+  },
 ];
 
 export const FAQS: FAQItem[] = [
   {
-    category: 'General & Engagement',
-    question: 'What makes ABIXION DIGITAL MARKETING PVT LIMITED different from typical marketing agencies?',
+    question: 'What services does Abixion Digital Marketing provide?',
     answer:
-      'Unlike traditional agencies that prioritize vanity metrics (likes, impressions, traffic), ABIXION operates with ruthless accountability to bottom-line net revenue, customer acquisition cost (CAC), and cash-on-cash ROAS. We build bespoke full-funnel strategies backed by transparent real-time client dashboards and weekly executive reviews.',
+      'We provide Website Development, SEO, Social Media Management & Marketing, and Paid Ads Management.',
+    category: 'Services',
   },
   {
-    category: 'Results & Timeline',
-    question: 'How quickly can we expect measurable results from our campaigns?',
+    question: 'Do you create custom websites?',
     answer:
-      'For Paid Media (Google Ads, Meta Ads, TikTok), we typically identify winning creatives and establish positive ROAS within 14 to 30 days. For Technical SEO and Content Clusters, organic search authority and substantial traffic exponential growth typically accelerate within 60 to 90 days.',
+      'Yes, we create custom, responsive, modern, and user-friendly websites according to your business requirements.',
+    category: 'Development',
   },
   {
-    category: 'Budget & Spend',
-    question: 'What is the recommended minimum monthly ad spend for performance marketing?',
+    question: 'How can SEO help my business?',
     answer:
-      'We tailor custom growth roadmaps for diverse tiers. For high-growth businesses and scaling e-commerce brands, a minimum ad budget of $3,000 to $10,000/month provides sufficient data velocity for algorithmic machine-learning ad optimization and rapid A/B testing.',
+      "SEO helps improve your website's visibility on search engines, attract organic traffic, and reach potential customers.",
+    category: 'SEO',
   },
   {
-    category: 'Contracts & Terms',
-    question: 'Do you lock clients into rigid long-term contracts?',
+    question: 'Do you manage social media accounts?',
     answer:
-      'No. We believe client retention should be earned every single month through undeniable performance. After an initial 90-day onboarding and growth acceleration phase, our engagements continue on a flexible, month-to-month basis.',
+      'Yes, we provide professional social media management and marketing services to help businesses grow their online presence.',
+    category: 'Social Media',
   },
   {
-    category: 'Reporting & Tracking',
-    question: 'How do you handle multi-touch attribution and reporting in the post-iOS14 privacy landscape?',
+    question: 'Do you run paid advertising campaigns?',
     answer:
-      'We implement advanced server-side tracking (Conversions API / CAPI), first-party pixel infrastructure, and statistical multi-touch attribution modeling to ensure 99%+ accurate conversion tracking and zero data loss across platforms.',
+      'Yes, we create and manage targeted advertising campaigns designed to reach the right audience and maximize return on investment.',
+    category: 'Paid Advertising',
+  },
+  {
+    question: 'How can I contact Abixion Digital Marketing?',
+    answer: 'You can contact us at: +92 302 0504559',
+    category: 'Contact',
   },
 ];
 

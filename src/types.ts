@@ -42,10 +42,28 @@ export interface Testimonial {
   highlight: string;
 }
 
+export interface PortfolioProject {
+  id: string;
+  name: string;
+  category:
+    | 'Website Development'
+    | 'SEO'
+    | 'Social Media Marketing'
+    | 'Paid Advertising'
+    | 'E-Commerce'
+    | 'Branding';
+  shortDesc: string;
+  image: string;
+  client: string;
+  metrics: string;
+  tags: string[];
+  deliverables?: string[];
+}
+
 export interface FAQItem {
   question: string;
   answer: string;
-  category: string;
+  category?: string;
 }
 
 export interface AuditRequest {

@@ -64,9 +64,17 @@ export const Footer: React.FC<FooterProps> = ({
               lifetime brand value.
             </p>
 
-            <div className="flex items-center gap-2 pt-2 text-xs text-slate-300">
-              <ShieldCheck className="w-4 h-4 text-emerald-400" />
-              <span>Certified Enterprise Agency Partner</span>
+            <div className="flex flex-col gap-2 pt-2 text-xs text-slate-300">
+              <div className="flex items-center gap-2">
+                <ShieldCheck className="w-4 h-4 text-emerald-400" />
+                <span>Certified Enterprise Agency Partner</span>
+              </div>
+              <div className="flex items-center gap-2 pt-1 text-slate-300">
+                <Phone className="w-3.5 h-3.5 text-cyan-400" />
+                <a href="tel:+923020504559" className="hover:text-cyan-400 font-semibold transition-colors">
+                  +92 302 0504559
+                </a>
+              </div>
             </div>
           </div>
 
@@ -98,6 +106,14 @@ export const Footer: React.FC<FooterProps> = ({
               <li>
                 <a href="#hero" className="hover:text-cyan-400 transition-colors">
                   Overview
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#portfolio"
+                  className="hover:text-cyan-400 transition-colors"
+                >
+                  Our Portfolio
                 </a>
               </li>
               <li>

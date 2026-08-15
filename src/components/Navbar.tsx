@@ -33,6 +33,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenAudit, onOpenContact }) =>
 
   const navLinks = [
     { label: 'Services', href: '#services' },
+    { label: 'Portfolio', href: '#portfolio' },
     { label: 'Case Studies', href: '#case-studies' },
     { label: 'Growth Framework', href: '#framework' },
     { label: 'ROI Calculator', href: '#calculator' },
